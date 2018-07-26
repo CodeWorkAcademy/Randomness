@@ -13,7 +13,7 @@ public class PasswordGenerator {
         {
             int randomInt = 40 + rnd.nextInt(126);
             char c= (char) randomInt;
-            output("Generated number: " +c);
+            output("Generated char: " +c);
         }
 
         output("Done.");
